@@ -1,0 +1,99 @@
+{
+  "latest_full_month": "2026-10",
+  "latest_volume_mn": 25466.7,
+  "latest_volume_bn": 25.47,
+  "latest_value_cr": 3152929.46,
+  "latest_value_lakh_cr": 31.53,
+  "latest_yoy_vol_growth_pct": 23.02,
+  "latest_yoy_val_growth_pct": 15.59,
+  "latest_ticket_size_inr": 1238.06,
+  "oct_2021_ticket_size_inr": 1828.65,
+  "cmgr_5y_pct": 3.04,
+  "cmgr_2y_pct": 1.8,
+  "latest_app_hhi": 3181.6,
+  "earliest_app_hhi": 3547.6,
+  "latest_top2_app_share_pct": 77.43,
+  "latest_top3_app_share_pct": 85.4,
+  "p2p_vol_share_oct26_pct": 36.8,
+  "p2m_vol_share_oct26_pct": 63.2,
+  "p2p_ticket_oct26_inr": 2328.4,
+  "p2m_ticket_oct26_inr": 603.12,
+  "top_td_remitter_latest": [
+    {
+      "bank_name": "Baroda U.P. Bank",
+      "volume_mn": 121.559797,
+      "td_pct": 2.27,
+      "estimated_td_txns_mn": 2.7594073919000004
+    },
+    {
+      "bank_name": "Telangana Grameena Bank",
+      "volume_mn": 57.863964,
+      "td_pct": 1.39,
+      "estimated_td_txns_mn": 0.8043090996
+    },
+    {
+      "bank_name": "India Post Payments Bank",
+      "volume_mn": 983.08054,
+      "td_pct": 1.15,
+      "estimated_td_txns_mn": 11.30542621
+    },
+    {
+      "bank_name": "State Bank of India",
+      "volume_mn": 7160.288209,
+      "td_pct": 1.09,
+      "estimated_td_txns_mn": 78.0471414781
+    },
+    {
+      "bank_name": "Punjab and Sind Bank",
+      "volume_mn": 81.132077,
+      "td_pct": 0.92,
+      "estimated_td_txns_mn": 0.7464151083999999
+    }
+  ],
+  "top_td_remitter_12m_avg": [
+    {
+      "bank_name": "Baroda U.P. Bank",
+      "avg_volume_mn": 97.88370755555555,
+      "avg_td_pct": 4.177777777777778,
+      "avg_bd_pct": 7.207777777777778,
+      "total_est_td_txns_mn": 34.662949399300004
+    },
+    {
+      "bank_name": "Uttar Pradesh Gramin Bank",
+      "avg_volume_mn": 68.27000000000001,
+      "avg_td_pct": 3.78,
+      "avg_bd_pct": 4.66,
+      "total_est_td_txns_mn": 5.1790199999999995
+    },
+    {
+      "bank_name": "Rajasthan Gramin Bank",
+      "avg_volume_mn": 52.065,
+      "avg_td_pct": 3.06,
+      "avg_bd_pct": 12.469999999999999,
+      "total_est_td_txns_mn": 3.199465
+    },
+    {
+      "bank_name": "Rajasthan Marudhara Gramin Bank",
+      "avg_volume_mn": 69.2947947,
+      "avg_td_pct": 2.122,
+      "avg_bd_pct": 14.872,
+      "total_est_td_txns_mn": 14.5242243148
+    },
+    {
+      "bank_name": "Telangana Grameena Bank",
+      "avg_volume_mn": 52.803334,
+      "avg_td_pct": 2.0425,
+      "avg_bd_pct": 12.1025,
+      "total_est_td_txns_mn": 13.2976433935
+    }
+  ],
+  "holdout_mape": {
+    "Seasonal Naive": 18.62,
+    "Holt-Winters": 0.66,
+    "SARIMA": 0.59
+  },
+  "best_forecast_model": "SARIMA",
+  "forecast_next_6m_min_bn": 25.03,
+  "forecast_next_6m_max_bn": 27.28,
+  "top_state_oct26": "Unclassified #"
+}
